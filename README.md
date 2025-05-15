@@ -31,3 +31,5 @@ In that folder, you can see all the efficiency results.
 In that folder, you can see all the euroleague K-Man statistics for 2022-23, 2023-24, 2024-25 (regular season).
 
 
+**NBA 2023-24 K-Man Statistics**
+In that folder, you can see all the NBA K-Man statistics for 2023-24 (regular season).
