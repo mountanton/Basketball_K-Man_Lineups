@@ -96,7 +96,7 @@ public class Lattice_Basketball {
         String method = keyboard2.next();
 
         Scanner keyboard3 = new Scanner(System.in);
-        System.out.println("Select one of this: All, Maximization");
+        System.out.println("Select the problem (all the computations or a maximization example): All, Maximization");
         String example = keyboard3.next();
 
         String printValue = "No";
@@ -114,7 +114,7 @@ public class Lattice_Basketball {
         System.out.println(currentFile);
         if (!printing.equals("No")) {
             writer = new BufferedWriter(new FileWriter("output_" + currentFile));
-            writer.write("LINEUP\tTM\tMIN\tPTS\t2PTM\t2PTA\t2PT%\t3PTM\t3PTA\t3PT%\tFGM\tFGA\tFG%\tFTM\tFTA\tFT%\tOR\tDR\tTR\tAST\tPF\tDF\tST\tTO\tBLK\tBLKA\tVAL\t+ / -\tAST_TO\tPTS_MIN\tOPPPTS_MIN\tTR_MIN\tDR_MIN\tOR_MIN\tAST_MIN\tTO_MIN\tST_MIN\tVAL_MIN\tBLK_MIN\tPLMIN_MIN");
+            writer.write("LINEUP\tTM\tMIN\tPTS\t2PTM\t2PTA\t2PT%\t3PTM\t3PTA\t3PT%\tFGM\tFGA\tFG%\tFTM\tFTA\tFT%\tOR\tDR\tTR\tAST\tPF\tDF\tST\tTO\tBLK\tBLKA\tVAL\t+ / -\tAST_TO\tPTS_MIN\tOPPPTS_MIN\tTR_MIN\tDR_MIN\tOR_MIN\tAST_MIN\tTO_MIN\tST_MIN\tVAL_MIN\tBLK_MIN\tPLMIN_MIN\n");
         }
         for (String team : allTeams) {
             allPlayers = new HashMap<String, Double>();
