@@ -21,6 +21,10 @@ So you select if you desire to print in a file the computations.
 
 * The code runs and it prints in the end some statitistics about the efficiency.
 
+Example:
+![image](https://github.com/user-attachments/assets/341585ff-9b1a-4b9b-8d86-20d88f74f15c)
+
+
 **Datasets**
 In the folder datasets, you can see all the used datasets for the experiments.
 
